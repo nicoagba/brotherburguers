@@ -62,10 +62,9 @@ header {
 body {
   background-image: url("/images/menublack.png");
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
 }
 
 @font-face {
@@ -304,16 +303,43 @@ footer {
 
 .frentemenu {
   margin-left: 15px;
-  width: 700px;
-  height: 1000px;
+  width: 650px;
+  height: 850px;
 }
 
 .dorsomenu {
-  width: 700px;
-  height: 1000px;
+  width: 650px;
+  height: 850px;
   margin-right: 15px;
 }
 
+@media (max-width: 1573px) {
+  .grilla {
+    display: flex;
+    flex-direction: column;
+  }
+  .grilla .dorsomenu {
+    justify-content: center;
+  }
+}
+@media (max-width: 877px) {
+  .navlist {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 50px;
+    justify-items: center;
+  }
+}
+@media (max-width: 680px) {
+  .galeria {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .imagen {
+    width: 100%;
+    height: 100%;
+  }
+}
 /* inicio estilos pagina nosotros */
 /* inicio estilos main */
 .titulonosotros {
