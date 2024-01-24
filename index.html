@@ -9,6 +9,7 @@
     <link rel="shortcut icon" href="images/iconologoweb.png">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script src="https://kit.fontawesome.com/fd521a1048.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -19,11 +20,12 @@
       </div>
         <nav class="navmenu">
             <ul class="navlist">
-                <li><a href="index.html">Menú</a></li>
-                <li><a href="/paginas/promos.html">Promos</a></li>
-                <li><a href="/paginas/nosotros.html">Nosotros</a></li>
-                <li><a href="/paginas/contacto.html">Contacto</a></li>
-                <li><a href="/paginas/delivery.html">Delivery</a></li>
+                <li><a href="index.html">inicio</a></li>
+                <li><a href="./paginas/menu.html">Menú</a></li>
+                <li><a href="./paginas/promos.html">Promos</a></li>
+                <li><a href="./paginas/nosotros.html">Nosotros</a></li>
+                <li><a href="./paginas/contacto.html">Contacto</a></li>
+                <li><a href="./paginas/delivery.html">Delivery</a></li>
             </ul>
         </nav>
     </header>
@@ -32,10 +34,10 @@
     <!--inico main-->
     <main>
         <section class="ofertadeldia">
-            <h1 class="descuento">¡25 % de descuento si retiras en el local!</h1>
+            <h1 class="descuento" data-aos="fade-down">¡25 % de descuento si retiras en el local!</h1>
             <p class="transferencias">Aceptamos tarjetas y transferencias </p>
             
-            <table class="table table-warning table-hover ">
+            <table class="table table-warning table-hover " data-aos="fade-right">
                 <thead>
                   <tr>
                     <th scope="col">#</th>
@@ -127,5 +129,9 @@
         <p class="socials">Contáctanos: instragram/brothersburguersarg  | Wsp: +54 9 11 6598-1594</p>
     </footer>
     <script src="/js/"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>

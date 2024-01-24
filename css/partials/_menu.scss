@@ -1,0 +1,26 @@
+/* menu seccion grilla*/
+
+.grilla{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-top: 50px;
+    padding-left: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.frentemenu{
+    margin-left: 15px;
+    width: 700px;
+    height: 1000px;
+   
+}
+
+.dorsomenu{
+    width: 700px;
+    height: 1000px;
+    margin-right: 15px;
+    
+}
+

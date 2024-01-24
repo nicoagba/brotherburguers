@@ -8,6 +8,7 @@
     <meta name="keywords" content="Entrega a domicilio, Pedidos online, Comida a tu puerta, Servicio de entrega, Rápido y confiable, Menú a domicilio, Sabores directo a casa, Pedido fácil y rápido, Comodidad culinaria, Disfruta en casa.">
     <link rel="shortcut icon" href="images/iconologoweb.png">
     <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <header> <!-- Inicio Header -->
@@ -18,7 +19,8 @@
           
         <nav class="navmenu">
               <ul class="navlist">
-                  <li><a href="../index.html">Menú</a></li>
+                  <li><a href="../index.html">inicio</a></li>
+                  <li><a href="/paginas/menu.html">Menú</a></li>
                   <li><a href="/paginas/promos.html">Promos</a></li>
                   <li><a href="/paginas/nosotros.html">Nosotros</a></li>
                   <li><a href="/paginas/contacto.html">Contacto</a></li>
@@ -30,7 +32,7 @@
     <br>
     <!-- Inicio main -->
     <main>
-        <h1 class="sdelivery">Servicio de Delivery</h1>
+        <h1 class="sdelivery" data-aos="fade-down">Servicio de Delivery</h1>
       <section class="delivery">
         <h2 class="dsubtitulo">Entrega a Domicilio</h2>
         <p class="ddescripcion">Nuestro servicio de delivery para todo laferrere</p>
@@ -51,5 +53,9 @@
     <footer >
         <p class="socials">Contáctanos: facebook.com/brotherburguer | Wsp: +54 9 11 6598-1594</p>
     </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>

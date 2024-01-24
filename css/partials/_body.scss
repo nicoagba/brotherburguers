@@ -1,0 +1,21 @@
+/* Inicio estilos body */
+body {
+    background-image: url("/images/menublack.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+@font-face {
+    font-family: "bebas neue";
+    src: url("../fonts/bebasneue.ttf");
+
+}
+
+@font-face {
+    font-family: "roboto";
+    src: url("../fonts/roboto-regular.ttf");
+/* fin estilos body */    
+}

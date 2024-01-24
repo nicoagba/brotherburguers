@@ -1,0 +1,22 @@
+/* Inicio estilos nav */
+.navlist{
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.navlist li a {
+    text-decoration: none;
+    color: white;
+    gap: 1rem;
+}
+.navmenu{
+    color: white;
+    text-align: center;
+    font-family: "bebas neue";
+    font-size: 30px;
+    font-weight: 600;
+    gap: 1rem;
+
+}
+/* fin estilos Header */

@@ -9,15 +9,18 @@
     <link rel="shortcut icon" href="images/iconologoweb.png">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
  <!-- Inicio Header -->
+<body>
  <header>
     <div class="logo">
       <img src="/images/logoamarillo.png" alt="logo de la empresa">
     </div>
       <nav class="navmenu">
           <ul class="navlist">
-              <li><a href="../index.html">Menú</a></li>
+              <li><a href="../index.html">inicio</a></li>
+              <li><a href="/paginas/menu.html">Menú</a></li>
               <li><a href="/paginas/promos.html">Promos</a></li>
               <li><a href="/paginas/nosotros.html">Nosotros</a></li>
               <li><a href="/paginas/contacto.html">Contacto</a></li>
@@ -30,10 +33,10 @@
     <!--inico main-->
     <main>
         <section class="somos"></section>
-        <h1 class="titulonosotros">Aqui puedes mirar las ofertas de la semana</h1>
+        <h1 class="titulonosotros" data-aos="fade-down">Aqui puedes mirar las ofertas de la semana</h1>
           <h2 class="subtitulonosotros">que esperas para pedirlas!</h2>
         </section>
-    <div class="container">
+     <div class="container">
         <div id="carouselExampleCaptions" class="carousel slide">
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -79,14 +82,17 @@
               <span class="visually-hidden">Next</span>
             </button>
           </div>
-    </div>
+      </div>
         
     </main>    
     <footer >
             <p class="socials">Contáctanos: instragram/brothersburguersarg | Wsp: +54 9 11 6598-1594</p>
     </footer>
     <script src="/js/bootstrap.bundle.min.js"></script>
-<body>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     
 </body>
 </html>

@@ -8,6 +8,7 @@
     <meta name="keywords" content="Contacto, ¡Hablemos! Consultas, Sugerencias, Ubicación, Información de contacto, Conéctate con nosotros, Envíanos un mensaje, Estamos aquí para ti, Comunícate, Atención al cliente, ¡Haznos saber tu opinión!">
     <link rel="shortcut icon" href="images/iconologoweb.png">
     <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
  <header>   
@@ -16,7 +17,8 @@
       </div>
         <nav class="navmenu">
             <ul class="navlist">
-                <li><a href="index.html">Menú</a></li>
+                <li><a href="../index.html">inicio</a></li>
+                <li><a href="/paginas/menu.html">Menú</a></li>
                 <li><a href="/paginas/promos.html">Promos</a></li>
                 <li><a href="/paginas/nosotros.html">Nosotros</a></li>
                 <li><a href="/paginas/contacto.html">Contacto</a></li>
@@ -26,7 +28,7 @@
     </header>
     <br> 
     <main>
-     <h2 class="contactopa">Contacto</h2>
+     <h2 class="contactopa" data-aos="fade-down">Contacto</h2>
         <p class="caqui">Estamos aquí para ayudarte. Puedes contactarnos de las siguientes maneras:</p>
         <div class="redescontacto">
             <a class="red1"href="https://www.instagram.com/brothersburguersarg/?hl=es-la"> <img src="/images/ig.png"> </a>
@@ -52,5 +54,9 @@
     <footer >
         <p class="socials">Contáctanos: instragram/brothersburguersarg | Wsp: +54 9 11 6598-1594</p>
     </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>

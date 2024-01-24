@@ -4,15 +4,6 @@
   box-sizing: border-box;
 }
 
-/* Inicio estilos Header */
-header {
-  display: flex;
-  height: 70px;
-  align-items: center;
-  padding: 5rem;
-  justify-content: space-between;
-}
-
 /* Inicio estilos logo */
 .logo {
   animation: bounce-in-top 1s both;
@@ -58,18 +49,13 @@ header {
 }
 
 /* fin estilos logo */
-/* Inicio estilos nav */
-.navlist {
-  list-style-type: none;
+/* Inicio estilos Header */
+header {
   display: flex;
-  gap: 1rem;
-}
-
-.navlist li a {
-  text-decoration: none;
-  color: white;
-  gap: 1rem;
-  /* fin estilos Header */
+  height: 70px;
+  align-items: center;
+  padding: 5rem;
+  justify-content: space-between;
 }
 
 /* Inicio estilos body */
@@ -91,16 +77,6 @@ body {
   src: url("../fonts/roboto-regular.ttf");
   /* fin estilos body */
 }
-/* Inicio estilos main */
-.navmenu {
-  color: white;
-  text-align: center;
-  font-family: "bebas neue";
-  font-size: 30px;
-  font-weight: 600;
-  gap: 1rem;
-}
-
 .descuento {
   color: white;
   font-family: "bebas neue";
@@ -209,7 +185,29 @@ h4 {
   font-size: 25px;
 }
 
-/* fin estilos footer */
+/* Inicio estilos nav */
+.navlist {
+  list-style-type: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.navlist li a {
+  text-decoration: none;
+  color: white;
+  gap: 1rem;
+}
+
+.navmenu {
+  color: white;
+  text-align: center;
+  font-family: "bebas neue";
+  font-size: 30px;
+  font-weight: 600;
+  gap: 1rem;
+}
+
+/* fin estilos Header */
 footer {
   color: white;
   font-family: "roboto";
@@ -220,40 +218,37 @@ footer {
   margin-top: auto;
 }
 
-/* inicio estilos pagina nosotros */
-/* inicio estilos main */
-.titulonosotros {
+/* inicio main contacto */
+.contactopa {
   color: white;
   font-family: "bebas neue";
   font-size: 30px;
   font-weight: 600;
 }
 
-.subtitulonosotros {
-  color: white;
-  font-family: "bebas neue";
-  font-size: 20px;
-  font-weight: 600;
-  margin-bottom: 100px;
-}
-
-.nosotros1 {
+.caqui {
   color: white;
 }
 
-.ntext1 {
+.listaredes {
   color: white;
 }
 
-.ntext2 {
+.cconsulta {
   color: white;
 }
 
-.ntext3 {
-  color: white;
+.formulario {
+  -moz-columns: white;
+       columns: white;
 }
 
-/* fin estilos main */
+.redescontacto {
+  display: flex;
+  justify-content: left;
+}
+
+/* fin main contacto*/
 /* inicios estilos pagina delivery */
 /* inicios dmain */
 .sdelivery {
@@ -296,37 +291,62 @@ footer {
 }
 
 /* fin estilos pagina delivery */
-/* inicio main contacto */
-.contactopa {
+/* menu seccion grilla*/
+.grilla {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding-top: 50px;
+  padding-left: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.frentemenu {
+  margin-left: 15px;
+  width: 700px;
+  height: 1000px;
+}
+
+.dorsomenu {
+  width: 700px;
+  height: 1000px;
+  margin-right: 15px;
+}
+
+/* inicio estilos pagina nosotros */
+/* inicio estilos main */
+.titulonosotros {
   color: white;
   font-family: "bebas neue";
   font-size: 30px;
   font-weight: 600;
 }
 
-.caqui {
+.subtitulonosotros {
+  color: white;
+  font-family: "bebas neue";
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 100px;
+}
+
+.nosotros1 {
   color: white;
 }
 
-.listaredes {
+.ntext1 {
   color: white;
 }
 
-.cconsulta {
+.ntext2 {
   color: white;
 }
 
-.formulario {
-  -moz-columns: white;
-       columns: white;
+.ntext3 {
+  color: white;
 }
 
-.redescontacto {
-  display: flex;
-  justify-content: left;
-}
-
-/* fin main contacto*/
 /* inicio main promos*/
 .imagen8 {
   height: 550px;
@@ -353,27 +373,4 @@ footer {
   background-color: black;
   border-color: white;
   color: white;
-}
-
-/* menu seccion grilla*/
-.grilla {
-  height: 100vh;
-  display: grid;
-  grid-template-columns: 50% 50%;
-  padding-top: 50px;
-  padding-left: 50px;
-  margin-left: 50px;
-  margin-right: 50px;
-}
-
-.frentemenu {
-  margin-left: 15px;
-  width: 700px;
-  height: 1000px;
-}
-
-.dorsomenu {
-  width: 700px;
-  height: 1000px;
-  margin-right: 15px;
 }/*# sourceMappingURL=estilos.css.map */
