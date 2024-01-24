@@ -9,18 +9,52 @@ header {
   display: flex;
   height: 70px;
   align-items: center;
-  padding: 2rem;
+  padding: 5rem;
   justify-content: space-between;
 }
 
 /* Inicio estilos logo */
 .logo {
-  max-width: 15rem;
-  margin-top: 2rem;
+  animation: bounce-in-top 1s both;
 }
-
+@keyframes bounce-in-top {
+  0% {
+    transform: translateY(-500px);
+    animation-timing-function: ease-in;
+    opacity: 0;
+  }
+  38% {
+    transform: translateY(0);
+    animation-timing-function: ease-out;
+    opacity: 1;
+  }
+  55% {
+    transform: translateY(-65px);
+    animation-timing-function: ease-in;
+  }
+  72% {
+    transform: translateY(0);
+    animation-timing-function: ease-out;
+  }
+  81% {
+    transform: translateY(-28px);
+    animation-timing-function: ease-in;
+  }
+  90% {
+    transform: translateY(0);
+    animation-timing-function: ease-out;
+  }
+  95% {
+    transform: translateY(-8px);
+    animation-timing-function: ease-in;
+  }
+  100% {
+    transform: translateY(0);
+    animation-timing-function: ease-out;
+  }
+}
 .logo img {
-  height: 100px;
+  height: 150px;
 }
 
 /* fin estilos logo */

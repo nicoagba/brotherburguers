@@ -2,23 +2,21 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 /* Inicio estilos Header */
 header { 
     display: flex;
     height: 70px;
     align-items: center;
-    padding: 2rem;
+    padding: 5rem;
     justify-content: space-between;
  
 }
 /* Inicio estilos logo */
+
 .logo {
-    height: 100px;
-    width: 100px;
-}
-.logo {
-	-webkit-animation: bounce-in-top 1s both;
+    -webkit-animation: bounce-in-top 1s both;
 	        animation: bounce-in-top 1s both;
 }
 
@@ -130,7 +128,7 @@ header {
   
 
 .logo img{
-    height: 100px;
+    height: 150px;
 }
 
 /* fin estilos logo */
