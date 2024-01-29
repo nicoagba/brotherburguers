@@ -5,7 +5,7 @@
     font-style: italic;
     font-size: 60px;
     text-align: left;
-    padding: 20px;
+    padding: 25px 100px 25px 25px;
 }
 
 .transferencias{
@@ -44,6 +44,28 @@ p {
 .sobrenosotros{
     background-color:rgb(255, 153,0) 
 
+}
+.guias1 {
+    background-color: black;
+    color:white;
+    padding: 5px;
+
+    
+}
+
+.guias2 {
+    background-color: black;
+    color:white;
+    padding: 5px;
+
+    
+}
+
+.guias3 {
+    background-color: black;
+    color:white;
+    padding: 5px;
+    
 }
 
 .imagen1{
@@ -108,7 +130,3 @@ h4{
     height: 700px;
 }
 /* fin estilos main */
-.socials{
-    color: white;
-    font-size: 25px;
-}

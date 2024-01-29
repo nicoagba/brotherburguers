@@ -1,4 +1,12 @@
 /* inicio main contacto */
+.contactos{
+    padding: 30px;
+
+    p{color: white;}
+
+}
+
+
 .contactopa{
     color: white;  
     font-family: "bebas neue";
@@ -6,16 +14,31 @@
     font-weight: 600; 
 }
 
-.caqui{
-    color: white;
-}
-
 .listaredes {
+    display: flex;
+    flex-direction: column;
     color: white;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    p{
+        font-family: "bebas neue";
+        font-size: 1.3rem;
+    }
 }
-
+.redescontacto{
+    display: flex;
+    flex-direction: row;
+    gap:100px;
+    padding-bottom: 70px;
+    padding-left: 625px;
+    justify-content: center;
+    align-items: center;
+}
 .cconsulta { 
     color: white;
+  align-items:center;
 }
 
 .formulario{
@@ -27,4 +50,8 @@
     justify-content: left;
 }
 
+
+.formularioc{
+    padding: 40px;
+}
 /* fin main contacto*/

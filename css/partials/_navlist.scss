@@ -1,4 +1,15 @@
 /* Inicio estilos nav */
+.navmenu{
+    color: white;
+    text-align: center;
+    font-family: "bebas neue";
+    font-size: 30px;
+    font-weight: 600;
+    gap: 1.5rem;
+    letter-spacing: 2px;
+
+}
+
 .navlist{
     list-style-type: none;
     display: flex;
@@ -9,14 +20,8 @@
     text-decoration: none;
     color: white;
     gap: 1rem;
+    
 }
-.navmenu{
-    color: white;
-    text-align: center;
-    font-family: "bebas neue";
-    font-size: 30px;
-    font-weight: 600;
-    gap: 1rem;
 
-}
+
 /* fin estilos Header */
