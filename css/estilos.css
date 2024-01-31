@@ -221,11 +221,10 @@ h4 {
 
 /* fin estilos Header */
 footer {
-  padding: 0;
+  padding: 2rem;
   padding-top: 0;
   position: absolute;
   bottom: 0;
-  width: 100%;
 }
 
 .footer {
