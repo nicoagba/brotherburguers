@@ -60,9 +60,11 @@ header {
 
 /* Inicio estilos body */
 body {
-  background-image: url(../images/menublack1.png);
+  background-image: url("../images/menublack1.png");
   display: flex;
   flex-direction: column;
+  min-height: 100vh;
+  position: relative;
 }
 
 @font-face {
@@ -221,6 +223,9 @@ h4 {
 footer {
   padding: 0;
   padding-top: 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 .footer {
@@ -248,7 +253,7 @@ footer p {
 .footer1 p {
   font-family: "roboto";
   font-style: italic;
-  font-size: rem;
+  font-size: 1.5rem;
 }
 .footer1 div {
   flex: 1 1 0;

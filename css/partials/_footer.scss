@@ -1,6 +1,11 @@
 footer{
     padding: 0;
     padding-top: 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;    
+
+
 
 }
 .footer {
@@ -29,7 +34,7 @@ footer p {
     p{
         font-family: "roboto";
         font-style: italic;
-        font-size: rem;
+        font-size: 1.5rem;
     }
     div {
         flex: 1 1 0;
