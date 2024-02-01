@@ -305,12 +305,14 @@ footer p {
 }
 .contactos p {
   color: white;
+  font-family: "roboto";
+  font-style: italic;
+  font-size: 1.5rem;
 }
-
-.contactopa {
+.contactos h2 {
   color: white;
   font-family: "bebas neue";
-  font-size: 30px;
+  font-size: 2.5rem;
   font-weight: 600;
 }
 
@@ -318,10 +320,13 @@ footer p {
   display: flex;
   flex-direction: column;
   color: white;
-  gap: 1rem;
+  gap: 1.5rem;
   justify-content: center;
   align-items: center;
   font-size: 1.5rem;
+  font-family: "roboto";
+  font-style: italic;
+  list-style: none;
 }
 .listaredes p {
   font-family: "bebas neue";
@@ -360,11 +365,26 @@ footer p {
 /* fin main contacto*/
 /* inicios estilos pagina delivery */
 /* inicios dmain */
-.sdelivery {
+.delivery {
+  padding: 20px;
+}
+.delivery h1 {
   color: white;
   font-family: "bebas neue";
-  font-size: 30px;
+  font-size: 2.5rem;
   font-weight: 600;
+}
+.delivery h2 {
+  color: white;
+  font-family: "bebas neue";
+  font-size: 2rem;
+  font-weight: 600;
+}
+.delivery p {
+  color: white;
+  font-family: "roboto";
+  font-style: italic;
+  font-size: 1.5rem;
 }
 
 .dsubtitulo {
@@ -374,24 +394,21 @@ footer p {
   font-size: 25px;
 }
 
-.ddescripcion {
-  color: white;
-}
-
-.delivery {
+.serviciosdly {
+  text-align: center;
   color: white;
   font-family: "roboto";
   font-style: italic;
-  font-size: 15px;
+  font-size: 1.5rem;
+  list-style-type: none;
 }
-
-.serviciosdly {
-  text-align: center;
+.serviciosdly li {
+  line-height: 2.5;
 }
 
 .imagen7 {
-  width: 250px;
-  height: 250px;
+  width: 350px;
+  height: 350px;
 }
 
 .contenedordeli {
@@ -438,20 +455,39 @@ footer p {
   margin-bottom: 100px;
 }
 
-.nosotros1 {
+.nosotros0 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 20px;
+  gap: 20px align-items center;
+}
+.nosotros0 h2 {
   color: white;
+  font-family: "bebas neue";
+  font-size: 2.5rem;
+  padding-bottom: 10px;
+}
+.nosotros0 p {
+  color: white;
+  font-family: "roboto";
+  font-style: italic;
+  font-weight: 200;
+  font-size: 1.5rem;
+  padding-top: 10px;
 }
 
-.ntext1 {
-  color: white;
+.nosotros-text {
+  text-align: center;
+  justify-content: center;
+  padding: 0 35px;
 }
 
-.ntext2 {
-  color: white;
-}
-
-.ntext3 {
-  color: white;
+.nosotros-video video {
+  max-width: 100%;
+  height: auto;
+  width: 100%;
+  max-height: 350px;
+  border-radius: 10px;
 }
 
 /* inicio main promos*/
@@ -491,6 +527,21 @@ footer p {
     width: 480px;
     height: 630px;
     margin-right: 15px;
+  }
+}
+@media (max-width: 1400px) {
+  .nosotros0 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .nosotros-video {
+    order: -1;
+    margin-bottom: 20px;
+  }
+  .nosotros-text {
+    padding: 0 50px;
+    margin: 0 auto;
   }
 }
 @media (max-width: 1056px) {
