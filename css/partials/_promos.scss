@@ -1,26 +1,27 @@
 /* inicio main promos*/
+.container {
+    max-width: 45%;
+    margin: auto;
+    height: auto;
+    margin-top: -100px;
+}
+  
+.carousel-item img {
+    max-width: 100%; 
+    height: auto;
+  }
+ 
+.somos {
+    padding-top: 15px;
+    
+}  
 
-.imagen8 { 
-    height: 550px;
-    width: 475px;
-}
-.imagen9 { 
-    height: 550px;
-    width: 475px;
-}
-.imagen10 { 
-    height: 550px;
-    width: 475px;
-}
-.imagen11 { 
-    height: 550px;
-    width: 475px;
+.titulonosotros{
+    padding-left: 35px;
+    font-size: 3rem;
 }
 
-/* fin main promos*/
-
-.table-hover {
-    background-color: black;
-    border-color: white;
-    color: white;
+.subtitulonosotros{
+    padding-left: 35px;
+    font-size: 2.7rem;
 }

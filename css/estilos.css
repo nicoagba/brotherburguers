@@ -58,13 +58,41 @@ header {
   justify-content: space-between;
 }
 
+/* Inicio estilos nav */
+.navmenu {
+  color: white;
+  text-align: center;
+  font-family: "bebas neue";
+  font-size: 30px;
+  font-weight: 600;
+  gap: 1.5rem;
+  letter-spacing: 2px;
+}
+
+.navlist {
+  list-style-type: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.navlist li a {
+  text-decoration: none;
+  color: white;
+  gap: 1rem;
+}
+
+/* fin estilos Header */
 /* Inicio estilos body */
 body {
   background-image: url("../images/menublack1.png");
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
   position: relative;
+  min-height: 100vh;
+  margin-bottom: 50px;
+}
+body .content {
+  min-height: calc(100vh - 100px);
 }
 
 @font-face {
@@ -195,36 +223,19 @@ h4 {
   height: 700px;
 }
 
+.table-hover {
+  background-color: black;
+  border-color: white;
+  color: white;
+}
+
 /* fin estilos main */
-/* Inicio estilos nav */
-.navmenu {
-  color: white;
-  text-align: center;
-  font-family: "bebas neue";
-  font-size: 30px;
-  font-weight: 600;
-  gap: 1.5rem;
-  letter-spacing: 2px;
-}
-
-.navlist {
-  list-style-type: none;
-  display: flex;
-  gap: 1rem;
-}
-
-.navlist li a {
-  text-decoration: none;
-  color: white;
-  gap: 1rem;
-}
-
-/* fin estilos Header */
 footer {
-  padding: 2rem;
+  padding: 0rem;
   padding-top: 0;
-  position: absolute;
+  position: relative;
   bottom: 0;
+  margin-top: 50px;
 }
 
 .footer {
@@ -391,25 +402,23 @@ footer p {
 /* fin estilos pagina delivery */
 /* menu seccion grilla*/
 .grilla {
-  height: 100vh;
+  height: auto;
   display: grid;
   grid-template-columns: 50% 50%;
   padding-top: 50px;
   padding-left: 50px;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 .frentemenu {
-  margin-left: 15px;
-  width: 650px;
-  height: 850px;
+  width: calc(50% - 30px);
+  height: 70vh;
 }
 
 .dorsomenu {
-  width: 650px;
-  height: 850px;
-  margin-right: 15px;
+  width: calc(50% - 30px);
+  height: 70vh;
 }
 
 /* inicio estilos pagina nosotros */
@@ -446,31 +455,30 @@ footer p {
 }
 
 /* inicio main promos*/
-.imagen8 {
-  height: 550px;
-  width: 475px;
+.container {
+  max-width: 45%;
+  margin: auto;
+  height: auto;
+  margin-top: -100px;
 }
 
-.imagen9 {
-  height: 550px;
-  width: 475px;
+.carousel-item img {
+  max-width: 100%;
+  height: auto;
 }
 
-.imagen10 {
-  height: 550px;
-  width: 475px;
+.somos {
+  padding-top: 15px;
 }
 
-.imagen11 {
-  height: 550px;
-  width: 475px;
+.titulonosotros {
+  padding-left: 35px;
+  font-size: 3rem;
 }
 
-/* fin main promos*/
-.table-hover {
-  background-color: black;
-  border-color: white;
-  color: white;
+.subtitulonosotros {
+  padding-left: 35px;
+  font-size: 2.7rem;
 }
 
 @media (max-width: 1573px) {
@@ -489,6 +497,13 @@ footer p {
   .grilla {
     display: flex;
     flex-direction: column;
+    padding-right: 25px;
+  }
+  .container {
+    margin-top: -95px;
+    max-width: 450px;
+    margin: auto;
+    height: auto;
   }
 }
 @media (max-width: 928px) {
@@ -501,6 +516,9 @@ footer p {
   .redescontacto {
     padding-left: 125px;
   }
+  .somos {
+    margin-top: 50px;
+  }
 }
 @media (max-width: 680px) {
   .galeria {
@@ -510,6 +528,9 @@ footer p {
   .imagen {
     width: 100%;
     height: 100%;
+  }
+  .somos {
+    margin-top: 50px;
   }
 }
 @media (max-width: 530px) {
@@ -528,5 +549,8 @@ footer p {
   .redescontacto {
     padding-left: 50px;
     gap: 3px;
+  }
+  .container {
+    margin-top: -90px;
   }
 }/*# sourceMappingURL=estilos.css.map */
