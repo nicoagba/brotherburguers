@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -70,9 +71,10 @@ header {
 }
 
 .navlist {
-  list-style-type: none;
   display: flex;
+  list-style-type: none;
   gap: 1rem;
+  align-items: center;
 }
 
 .navlist li a {
@@ -235,7 +237,7 @@ footer {
   padding-top: 0;
   position: relative;
   bottom: 0;
-  margin-top: 50px;
+  margin-top: auto;
 }
 
 .footer {
@@ -333,16 +335,6 @@ footer p {
   font-size: 1.3rem;
 }
 
-.redescontacto {
-  display: flex;
-  flex-direction: row;
-  gap: 100px;
-  padding-bottom: 70px;
-  padding-left: 625px;
-  justify-content: center;
-  align-items: center;
-}
-
 .cconsulta {
   color: white;
   align-items: center;
@@ -355,11 +347,22 @@ footer p {
 
 .redescontacto {
   display: flex;
-  justify-content: left;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+  margin-bottom: 50px;
+}
+
+.redescontacto img {
+  max-width: 100%; /* Ajusta el ancho máximo de las imágenes */
+  height: auto; /* Mantiene la proporción */
 }
 
 .formularioc {
   padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* fin main contacto*/
@@ -421,21 +424,27 @@ footer p {
 .grilla {
   height: auto;
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 1fr 1fr;
   padding-top: 50px;
   padding-left: 50px;
   margin-left: 0px;
   margin-right: 0px;
+  margin-bottom: 0;
+  grid-gap: 0;
 }
 
 .frentemenu {
   width: calc(50% - 30px);
-  height: 70vh;
+  height: auto;
+  max-width: 100%;
+  margin-bottom: 0;
 }
 
 .dorsomenu {
   width: calc(50% - 30px);
-  height: 70vh;
+  height: auto;
+  max-width: 100%;
+  margin-bottom: 0;
 }
 
 /* inicio estilos pagina nosotros */
@@ -495,7 +504,7 @@ footer p {
   max-width: 45%;
   margin: auto;
   height: auto;
-  margin-top: -100px;
+  margin-bottom: 50px;
 }
 
 .carousel-item img {
@@ -517,6 +526,17 @@ footer p {
   font-size: 2.7rem;
 }
 
+@media (max-width: 1806px) {
+  .sorteos {
+    display: flex;
+  }
+  .sorteos1 {
+    width: 100%;
+  }
+  .sorteos2 {
+    width: 100%;
+  }
+}
 @media (max-width: 1573px) {
   .frentemenu {
     margin-left: 15px;
@@ -558,19 +578,33 @@ footer p {
   }
 }
 @media (max-width: 928px) {
+  .sorteos {
+    display: grid;
+  }
   .navlist {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding-top: 50px;
     justify-items: center;
   }
-  .redescontacto {
-    padding-left: 125px;
+}
+@media (max-width: 792px) {
+  .formularioc {
+    display: flex;
+    flex-direction: column;
   }
-  .somos {
-    margin-top: 50px;
+  .row {
+    margin-bottom: 10px;
   }
 }
+.redescontacto {
+  padding-left: 125px;
+}
+
+.somos {
+  margin-top: 50px;
+}
+
 @media (max-width: 680px) {
   .galeria {
     display: grid;
@@ -582,6 +616,26 @@ footer p {
   }
   .somos {
     margin-top: 50px;
+  }
+  .imagen5 {
+    display: none;
+  }
+  footer {
+    grid-template-rows: auto;
+  }
+  .redescontacto {
+    gap: 5px;
+    padding-right: 15px;
+  }
+  .footer1,
+  .footermid,
+  .footer2 {
+    grid-template-columns: 1fr;
+    grid-auto-flow: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
   }
 }
 @media (max-width: 530px) {
@@ -596,6 +650,7 @@ footer p {
     gap: 0;
     font-size: 15px;
     padding-bottom: 15px;
+    padding-left: 35px;
   }
   .redescontacto {
     padding-left: 50px;

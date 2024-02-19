@@ -33,15 +33,7 @@
         font-size: 1.3rem;
     }
 }
-.redescontacto{
-    display: flex;
-    flex-direction: row;
-    gap:100px;
-    padding-bottom: 70px;
-    padding-left: 625px;
-    justify-content: center;
-    align-items: center;
-}
+
 .cconsulta { 
     color: white;
   align-items:center;
@@ -51,13 +43,22 @@
     columns: white;
 }
 
-.redescontacto { 
+.redescontacto {
     display: flex;
-    justify-content: left;
+    justify-content: center;
+    align-items: center;
+    gap: 35px; 
+    margin-bottom: 50px; 
 }
-
+.redescontacto img {
+    max-width: 100%; /* Ajusta el ancho máximo de las imágenes */
+    height: auto; /* Mantiene la proporción */
+}
 
 .formularioc{
     padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 /* fin main contacto*/

@@ -11,9 +11,10 @@
 }
 
 .navlist{
-    list-style-type: none;
     display: flex;
+    list-style-type: none;
     gap: 1rem;
+    align-items: center;
 }
 
 .navlist li a {

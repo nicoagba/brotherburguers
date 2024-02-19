@@ -3,21 +3,26 @@
 .grilla{
     height: auto;
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 1fr 1fr;
     padding-top: 50px;
     padding-left: 50px;
     margin-left: 0px;
     margin-right: 0px;
+    margin-bottom: 0;
+    grid-gap: 0;
 }
 
 .frentemenu{
     width: calc(50% - 30px);
-    height: 70vh;
+    height: auto;
+    max-width: 100%;
+    margin-bottom: 0;
 }
 
 .dorsomenu{
     width: calc(50% - 30px);
-    height: 70vh;
-    
+    height: auto;
+    max-width: 100%;
+    margin-bottom: 0;
 }
 
